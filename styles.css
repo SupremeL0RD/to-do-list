@@ -1,10 +1,10 @@
-/* REMOVING THE DEFAULT STYLINGS FROM THE PAGE */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* ADDING BACKGROUND COLOR, FONT  FAMILY, FOREGROUND COLOR AND MINIMUN HEIGHT TO OUR PAGE  */
+
 body {
   background-image: linear-gradient(120deg, #5f57d1, #c065c0);
   font-family: "Poppins", sans-serif;
@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* STYLYING INPUT ELEMENT AND TH EBUTTON */
+
 header,
 form {
   display: flex;
@@ -37,7 +37,7 @@ form button:hover {
   background: #c065c0;
   color: white;
 }
-/* STYLING DROPDOWN */
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -68,7 +68,6 @@ select {
   color: #583429;
 }
 
-/* STYLING CONTAINER WHERE THE TASKS ARE SHOWN */
 .todo_container {
   display: flex;
   justify-content: center;
@@ -95,7 +94,6 @@ select {
   flex: 1;
 }
 
-/* STYLING THE BUTTONS ON THE TASKS  */
 .complete_btn,
 .delete_btn {
   padding: 0.5rem;
@@ -123,13 +121,11 @@ select {
   pointer-events: none;
 }
 
-/* STYLING TASK THAT IS COMPLETED */
 .completedItem {
   text-decoration: line-through;
   opacity: 0.5;
   transform: scale(0.96);
 }
-/* DELETING THE TASKS */
 .fall {
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
   opacity: 0;
